@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body { @apply bg-cream text-ink font-sans antialiased; }
+  h1, h2, h3, .font-display { font-family: theme("fontFamily.display"); }
+  :focus-visible { outline: 2px solid theme("colors.ink"); outline-offset: 2px; }
+}
+
+@layer components {
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition hover:-translate-y-0.5 disabled:opacity-40 disabled:hover:translate-y-0; }
+  .btn-ink { @apply btn bg-ink text-cream hover:bg-black; }
+  .btn-coral { @apply btn bg-coral text-white hover:brightness-95; }
+  .btn-line { @apply btn border border-ink/20 bg-transparent hover:bg-ink/5; }
+  .input { @apply w-full rounded-xl border border-line bg-paper px-4 py-2.5 text-sm placeholder:text-ink/40; }
+  .chip { @apply inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold; }
+  .card { @apply rounded-xl2 border border-line bg-paper p-6; }
+}
+
+/* Simple entrance animation. Add class "reveal" to anything; stagger with style={{animationDelay}} */
+@keyframes rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+.reveal { animation: rise .7s cubic-bezier(.2,.7,.2,1) both; }
+@media (prefers-reduced-motion: reduce) { .reveal { animation: none; } }

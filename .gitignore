@@ -1,0 +1,18 @@
+node_modules/
+.venv/
+**pycache**/
+*.pyc
+.env
+.idea/
+dist/
+__pycache__/
+.idea/
+.vscode/
+# Local backups and IDE files
+job_matching_backend/data_backups/
+job_matching_backend/job_matching_backend.iml
+job_matching_backend/routes/_itit_.py
+job_matching_backend/scripts/migration_output.sql
+# Local data files - replace with sanitized sample data before publishing
+job_matching_backend/data/*.json
+src/data/*.json

@@ -1,0 +1,12 @@
+[
+  { "id": "c1", "name": "Ananya Rao", "college": "NIT Warangal", "course": "B.Tech CSE", "year": "Final year", "skills": ["Python", "SQL", "Pandas", "Machine Learning", "Git"], "project": "Customer churn predictor", "github": "github.com/ananya-rao" },
+  { "id": "c2", "name": "Rohit Verma", "college": "VIT Vellore", "course": "B.Tech IT", "year": "3rd year", "skills": ["HTML", "CSS", "JavaScript", "React", "Git"], "project": "Expense tracker web app", "github": "github.com/rohitv" },
+  { "id": "c3", "name": "Sneha Iyer", "college": "SRM Chennai", "course": "B.Sc Data Science", "year": "Graduated", "skills": ["Python", "SQL", "Excel", "Power BI", "Statistics"], "project": "Sales dashboard", "github": "github.com/snehaiyer" },
+  { "id": "c4", "name": "Kabir Malhotra", "college": "DTU Delhi", "course": "B.Tech CSE", "year": "Final year", "skills": ["Java", "DSA", "SQL", "Git", "C++"], "project": "Library management system", "github": "github.com/kabirm" },
+  { "id": "c5", "name": "Meera Nair", "college": "CUSAT Kochi", "course": "B.Des", "year": "3rd year", "skills": ["Figma", "UI Design", "UX Research", "Canva", "Communication"], "project": "Food delivery app redesign", "github": "behance.net/meeranair" },
+  { "id": "c6", "name": "Arjun Patel", "college": "LDCE Ahmedabad", "course": "B.E. Computer", "year": "2nd year", "skills": ["JavaScript", "Node.js", "MongoDB", "REST APIs", "Git"], "project": "Chat app with Node.js", "github": "github.com/arjunp" },
+  { "id": "c7", "name": "Isha Gupta", "college": "IIIT Hyderabad", "course": "B.Tech AI & ML", "year": "Final year", "skills": ["Python", "NLP", "PyTorch", "Machine Learning", "Deep Learning", "Git"], "project": "Hindi text summariser", "github": "github.com/ishag" },
+  { "id": "c8", "name": "Dev Kulkarni", "college": "COEP Pune", "course": "B.Tech CSE", "year": "Graduated", "skills": ["Python", "FastAPI", "SQL", "REST APIs", "Docker", "Git"], "project": "URL shortener API", "github": "github.com/devk" },
+  { "id": "c9", "name": "Nisha Bansal", "college": "Symbiosis Pune", "course": "BBA Marketing", "year": "Final year", "skills": ["SEO", "Content Writing", "Canva", "Excel", "Communication"], "project": "Campus fest social campaign", "github": "linkedin.com/in/nishabansal" },
+  { "id": "c10", "name": "Yash Thakur", "college": "BITS Pilani", "course": "B.E. ECE", "year": "3rd year", "skills": ["Python", "NumPy", "Pandas", "scikit-learn", "Machine Learning"], "project": "House price model", "github": "github.com/yasht" }
+]
