@@ -58,12 +58,12 @@ The platform provides student profiles, job listings, application tracking, and 
 ```text
 Aura-Sync/
 │
-├── app/
-│   ├── src/
+├── src/
 │   │   ├── components/
 │   │   ├── pages/
 │   │   ├── lib/
 │   │   └── store.jsx
+│   │   └── app.jsx
 │   ├── public/
 │   ├── package.json
 │   └── index.html
